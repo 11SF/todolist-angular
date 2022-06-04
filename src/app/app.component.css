@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.content {
+    width: 22rem;
+    margin: 0 auto;
+}
+.title {
+    text-align: center;
+}
+.formInput {
+    padding-top: 3rem;
+    width: 20rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around
+}
+.formWraper {
+    width: fit-content
+}
+.inputArea {
+    margin: 0 auto;
+    padding: 0.5rem;
+    width: 13rem;
+    border: 0.01rem solid cadetblue;
+}
+.submitBtn {
+    width: 5rem;
+    padding: 0.5rem 0;
+    background-color: cadetblue;
+    color: #fff;
+    border-radius: 0 20px 20px 0;
+    border: 0.01rem solid cadetblue;
+}
+.todoArea {
+    width: 19rem;
+    margin: 5rem auto;
+}
+.todo_normal {
+    background-color: cadetblue;
+    color: #fff;
+    border-radius: 0.2rem;
+    margin: 0.5rem 0;
+}
+.todo_success {
+    background-color: rgb(31, 90, 61);
+    color: #fff;
+    border-radius: 0.2rem;
+    margin: 0.5rem 0;
+}
+.textWrap {
+    padding: 0.5rem;
+    min-height: 3rem;
+}
+.btnWrap .completed {
+    width: 70%;
+    height: 2rem;
+    border: none
+}
+.btnWrap .remove {
+    width: 30%;
+    height: 2rem;
+    border: none;
+    color: #fff;
+    background-color: rgb(111, 0, 0);
+}
